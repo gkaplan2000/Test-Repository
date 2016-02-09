@@ -1,3 +1,27 @@
-h1 {
-  background-color: orange;
+/*
+html{
+  background: url(dog.png) no-repeat center center fixed;
+  background-size: cover;
+}
+*/
+
+@media all and (max-width: 1000px) and (min-width: 650px){
+  html{
+    background: url(dog.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 650px) {
+  html{
+    background: url(smalldog.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media all and (min-width: 1000px){
+  html{
+    background: url(bigdog.png) no-repeat center center fixed;
+    background-size: cover;
+  }
 }
